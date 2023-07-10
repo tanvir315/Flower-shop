@@ -1,0 +1,61 @@
+body{
+    margin: 0 auto;
+
+}
+.header{
+    background-color: rgba(229, 84, 115, 0.10);
+    align-items: baseline;
+
+}
+
+.banner-text{
+    max-width: 500px;
+    
+}
+.profile-pic{
+    margin: 0px; padding: 0px;
+    width: 480px;
+}
+.banner1{
+    display: flex;
+    padding: 50px 240px 0px 240px;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner-heading{
+    color: #272727;
+    font-family: 'Open Sans', sans-serif;
+    width: 708px; height: 288px;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    }
+.banner-descript{
+
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+body{
+    margin: 0 auto;
+}
+
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473; 
+    color: white;
+    font-size: 15px;
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 20px 43px;
+    border: 0;
+    width: 160px;
+    height: 30 px;
+}
+.btn-primary:hover{
+    color: darkgray;
+}
+
