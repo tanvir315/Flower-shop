@@ -272,3 +272,65 @@ li{
     margin: 0px 30px 90px 90px;
     gap: 35px;
 }
+.caption{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+line-height: normal;
+}
+.sub{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.cls{
+    margin: 0px 240px;
+    background-image: url("./image/Rectangle_9.png");
+    background-repeat: no-repeat ;
+    align-items: center;
+    text-align: center;
+    width: 850px;
+}
+.sub-caption{
+    padding: 70px 0px;
+}
+.caption{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.sub{
+   
+    border: none;
+    align-content: center;
+    align-items: center;
+}
+.exit{
+    background-color: black;
+}
+
+.exit-container{
+    text-align: center;
+    color: #fff;
+    padding: 100px;
+}
+.exit-3{
+    color: #fff;
+    font-weight: 800;
+    font-size: 45px;
+}
+.e-title{
+    color: #E55473;
+}
+.e-sub{
+    color: rgba(255, 255 , 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
