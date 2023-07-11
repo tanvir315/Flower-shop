@@ -1,5 +1,5 @@
 body{
-    margin: 0 auto;
+    margin: auto;
 
 }
 .header{
@@ -40,7 +40,7 @@ body{
 }
 
 body{
-    margin: 0 auto;
+    margin: 0;
 }
 
 .btn-primary{
@@ -60,15 +60,18 @@ body{
 }
 .featured{
     
-    margin: 140px;
-    margin-bottom: 0 auto;
+    margin: 3px;
+    margin-bottom: 0;
+    
+
+
 }
 .featured-title{
     color: #272727;
     text-align: center;
     font-size: 30px;
     font-weight: 550;
-    margin-bottom: auto;
+    margin-bottom: 0;
     
 }
 .header2{
@@ -80,3 +83,64 @@ body{
     font-size: 15px;
     font-weight: 400;
 }
+.bg-ig{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0; 
+    margin: 50px 20px 0px 90px;
+    
+    
+}
+.c1{
+    
+    width: 310px;
+    height: 392px;
+    
+    
+    
+    
+    
+}
+.c2{
+    width: 310px;
+    height: 392px;
+    
+}
+    
+
+.c3{
+    width: 310px;
+    height: 396px;
+    
+}
+
+.b1{
+    background-image: url("./image/Rectangle_3-1.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: 360px;
+    height: 585px;
+    padding: 25px 3px 0px 3px;
+    
+}
+    
+.b2{
+    padding: 20px 3px 0px 3px;
+    background-image: url("./image/Rectangle_3-2.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 360px;
+    height: 585px;
+ 
+}
+.b3{
+    padding: 20px 0px 0px 3px; 
+    background-image: url("./image/Rectangle_3-3.png");
+    background-repeat: no-repeat;
+    background-position:top right;
+    width: 360px;
+    height: 585px;
+}
+
+
+
