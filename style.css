@@ -5,11 +5,10 @@ body{
 .header{
     background-color: rgba(229, 84, 115, 0.10);
     align-items: baseline;
-
 }
 
 .banner-text{
-    max-width: 525px;
+    max-width: 625px;
     
 }
 .profile-pic{
@@ -27,8 +26,11 @@ body{
     font-family: 'Open Sans', sans-serif;
     width: 680px; height: 188px;
     font-size: 48px;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 0px;
+    }
+    .text-primary{
+        color: #E55473 ;
     }
 .banner-descript{
 
@@ -72,29 +74,35 @@ body{
     font-size: 30px;
     font-weight: 550;
     margin-bottom: 0;
+    justify-content: center;
     
 }
 .header2{
+    align-items: center;
     border-color: white;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 0px 30px 0px 0px;
 }
 .ftr-des{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 15px;
     font-weight: 400;
+    
 }
 .bg-ig{
     display: flex;
     align-items: center;
     flex-shrink: 0; 
-    margin: 50px 20px 0px 90px;
+    margin: 50px 10px 0px 90px;
     
     
 }
 .c1{
     padding: 0px;
     width: 290px;
-    height: 351px;
+    height: 355px;
     
     
     
@@ -102,7 +110,7 @@ body{
     
 }
 .c2{
-    padding: 0px 10px 0px 30px;
+    padding: 0px 08px 0px 30px;
     width: 290px;
     height: 330px;
     
@@ -110,10 +118,15 @@ body{
     
 
 .c3{
-    padding: 0px 15px 0px 40px;
+    padding: 0px 13px 0px 40px;
     width: 290px;
     height: 355px;
     
+}
+.pic2{
+    width: 318px;
+    height: 410px;
+    flex-shrink: 0;
 }
 
 .b1{
@@ -121,8 +134,8 @@ body{
     background-repeat: no-repeat;
     background-position: top left;
     width: 360px;
-    height: 585px;
-    padding: 25px 3px 0px 3px;
+    height: 588px;
+    padding: 20px 0px 0px 3px; 
     text-align: center;
     
 }
@@ -156,4 +169,106 @@ body{
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
+}
+.contact{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1080px;
+    height: 260px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    margin: 0px 30px 90px 90px;
+    
+}
+li{
+    list-style: none;
+    color: rgba(39, 39, 39, 0.80);
+     text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+.box{
+    align-items: center;
+}
+.ct1{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+.cn1{
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
+    margin: 10px  ;
+}
+.cn2{
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
+    margin: 10px;
+
+}
+.cn3{
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
+    margin: 10px;
+}
+.banner2{
+    display:flex;
+    padding: 50px 240px 70px 240px;
+    align-items: center;
+    justify-content: center;}
+    
+.poster-heading{
+    color: #272727;
+    font-family: 'Open Sans', sans-serif;
+    width: 680px; height: 100px;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    padding: 20px 0px 20px 20px;
+    margin-bottom: 0px;
+    
+}
+.banner-text2{
+    white-space: 10px;
+}
+.btn-primary2{
+    border-radius: 8px;
+    background: #E55473; 
+    color: white;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 15px 30px 15px 30px;
+    border: 0;
+    width: 150px;
+    align-items: center;
+    height: 28 px;
+}
+.banner-descript2{
+    margin: 10px;
+}
+.img3{
+    
+    width: 1080px;
+    height: 260px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0px 30px 90px 90px;
+    gap: 35px;
 }
