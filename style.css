@@ -328,6 +328,9 @@ line-height: 30px;
 .e-title{
     color: #E55473;
 }
+span{
+    color: antiquewhite;
+}
 .e-sub{
     color: rgba(255, 255 , 255, 0.90);
     text-align: center;
