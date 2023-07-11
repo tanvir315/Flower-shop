@@ -92,9 +92,9 @@ body{
     
 }
 .c1{
-    
-    width: 310px;
-    height: 392px;
+    padding: 0px;
+    width: 290px;
+    height: 351px;
     
     
     
@@ -102,15 +102,17 @@ body{
     
 }
 .c2{
-    width: 310px;
-    height: 392px;
+    padding: 0px 10px 0px 30px;
+    width: 290px;
+    height: 330px;
     
 }
     
 
 .c3{
-    width: 310px;
-    height: 396px;
+    padding: 0px 15px 0px 40px;
+    width: 290px;
+    height: 355px;
     
 }
 
@@ -121,6 +123,7 @@ body{
     width: 360px;
     height: 585px;
     padding: 25px 3px 0px 3px;
+    text-align: center;
     
 }
     
@@ -131,6 +134,7 @@ body{
     background-position: top center;
     width: 360px;
     height: 585px;
+    text-align: center;
  
 }
 .b3{
@@ -140,7 +144,16 @@ body{
     background-position:top right;
     width: 360px;
     height: 585px;
+    text-align: center;
 }
 
-
-
+.l1{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
